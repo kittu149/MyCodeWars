@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "c:\Users\cbsuj\OneDrive\Desktop\codewars-v4-main\engine\main.py", line 308, in run_game
+    self.__rscript.ActTeam(self.__red_team)
+  File "c:\Users\cbsuj\OneDrive\Desktop\codewars-v4-main\old.py", line 523, in ActTeam
+    team.buldWalls(1)
+    ^^^^^^^^^^^^^^
+AttributeError: 'Team' object has no attribute 'buldWalls'. Did you mean: 'buildWalls'?
